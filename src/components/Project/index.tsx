@@ -4,8 +4,11 @@ import { Card, LinkBotao } from "./styles";
 
 const Project = () => (
   <Card>
-    <Title>Projeto Lista de Tarefas</Title>
-    <Text type="secondary">Lista de Tarefas feita com Vue.js</Text>
+    <Title>Projeto Lorem Ipsum</Title>
+    <Text type="secondary">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+      obcaecati.
+    </Text>
     <LinkBotao>Visualizar</LinkBotao>
   </Card>
 );
