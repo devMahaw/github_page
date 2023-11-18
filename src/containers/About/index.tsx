@@ -5,7 +5,7 @@ import { GithubSecao } from "./styles";
 const About = () => (
   <section>
     <Title fontSize={16}>Sobre mim</Title>
-    <Text type="secondary">
+    <Text type="main">
       Trabalho principalmente com HTML, CSS, Javascript, Java e SQL incluindo as
       frameworks, bibliotecas e pré-processadores como: Spring, Hibernate,
       React, jQuery, Gulp, SASS, etc... Adicionalmente trabalho com
