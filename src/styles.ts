@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+import { Theme } from "./themes/dark";
 
 const EstiloGlobal = createGlobalStyle`
   * {
@@ -11,8 +12,8 @@ const EstiloGlobal = createGlobalStyle`
 
   body {
     padding-top: 80px;
-    background-color: #0d1117;
     padding-bottom: 80px;
+    background-color: ${(props) => (props.theme as Theme).backgroundColor};
 
     @media (max-width: 768px) {
       padding-top: 16px;
